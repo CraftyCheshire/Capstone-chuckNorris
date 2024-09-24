@@ -30,3 +30,8 @@ h1 {
 footer {
     text-align: center;
 }
+
+#chuckBtn {
+    display: block;
+    margin: auto;
+}
