@@ -35,3 +35,7 @@ footer {
     display: block;
     margin: auto;
 }
+
+p {
+    text-indent: 30px;
+}
