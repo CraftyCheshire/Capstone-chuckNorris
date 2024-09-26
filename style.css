@@ -39,3 +39,15 @@ footer {
 p {
     text-indent: 30px;
 }
+
+#headShot {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#linkedIn{
+    color: blue;
+}
