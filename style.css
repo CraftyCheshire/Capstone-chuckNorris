@@ -16,6 +16,12 @@ h2 {
     text-align:center;
 }
 
+h6 {
+    color: purple;
+    border: 2px dotted black;
+    text-align: center;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("eagle.webp");
     height: 700px;
