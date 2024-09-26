@@ -10,6 +10,12 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("eagle.webp");
     height: 700px;
@@ -34,4 +40,14 @@ footer {
 #chuckBtn {
     display: block;
     margin: auto;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#email {
+    border: none;
+    border-bottom: 2px solid black;
 }
