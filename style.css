@@ -10,6 +10,18 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: #000000;
+    border-bottom:1px solid #000000;
+    text-align:center;
+}
+
+h6 {
+    color: purple;
+    border: 2px dotted black;
+    text-align: center;
+}
+
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("eagle.webp");
     height: 700px;
@@ -29,4 +41,36 @@ h1 {
 
 footer {
     text-align: center;
+}
+
+#chuckBtn {
+    display: block;
+    margin: auto;
+}
+
+<<<<<<< HEAD
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+#email {
+    border: none;
+    border-bottom: 2px solid black;
+=======
+p {
+    text-indent: 30px;
+}
+
+#headShot {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#linkedIn{
+    color: blue;
+>>>>>>> about
 }
