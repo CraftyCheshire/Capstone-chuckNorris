@@ -1,6 +1,6 @@
 function myFunction() {
     fetch('https://api.chucknorris.io/jokes/random')
-        .then(response => response.json()) // <- Closing parenthesis added here
+        .then(response => response.json())
         .then(data => {
             document.getElementById("norrisGrandma").innerText = data.value;
         })
