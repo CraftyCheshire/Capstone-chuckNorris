@@ -1,5 +1,7 @@
 body {
     background-color: rgb(219, 219, 219);
+    background-image: url('../photos/background.webp');
+    background-repeat: repeat;
 }
 
 a {
@@ -8,22 +10,27 @@ a {
 
 h1 {
     text-align: center;
+    background-color: bisque;
+
 }
 
 h2 {
     color: #000000;
     border-bottom:1px solid #000000;
     text-align:center;
+    background-color: bisque;
 }
 
 h6 {
     color: purple;
     border: 0px dotted black;
     text-align: center;
+    background-color: bisque;
+
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("eagle.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../photos/eagle.webp");
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -60,6 +67,8 @@ input[type=text] {
 
 p {
     text-indent: 30px;
+    background-color:antiquewhite;
+    padding: 10px;
 }
 
 #headShot {
@@ -72,4 +81,22 @@ p {
 
 #linkedIn{
     color: blue;
+    background-color: antiquewhite;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    background-color: aliceblue;
+}
+
+#heeyah {
+    background-color: antiquewhite;
+}
+
+#norrisGrandma {
+    padding: 50px;
 }
