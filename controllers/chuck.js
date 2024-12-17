@@ -1,4 +1,6 @@
-function myFunction() {
+document.getElementById("chuckBtn").addEventListener("click", heeyahButton);
+
+function heeyahButton() {
     fetch('https://api.chucknorris.io/jokes/random')
         .then(response => response.json())
         .then(data => {

@@ -1,6 +1,5 @@
 body {
     background-color: rgb(219, 219, 219);
-    background-image: url('../photos/background.webp');
     background-repeat: repeat;
 }
 
@@ -11,6 +10,7 @@ a {
 h1 {
     text-align: center;
     background-color: bisque;
+    color: #000000;
 
 }
 
@@ -68,11 +68,11 @@ input[type=text] {
 p {
     text-indent: 30px;
     background-color:antiquewhite;
+    color: #000000;
     padding: 10px;
 }
 
 #headShot {
-    width: 1200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -99,4 +99,25 @@ ul {
 
 #norrisGrandma {
     padding: 50px;
+}
+
+.navbar {
+    background-color: brown;
+}
+
+#changeColor {
+    margin: 30%;
+}
+
+#quote {
+    background-color: #000000;
+    color: white;;
+}
+
+#chuckBody {
+    background-image: url('../photos/background.webp');
+}
+
+#indexBody {
+    background-image: url('../photos/background.webp');
 }
