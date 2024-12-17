@@ -111,7 +111,7 @@ ul {
 
 #quote {
     background-color: #000000;
-    color: white;;
+    color: white;
 }
 
 #chuckBody {
@@ -120,4 +120,12 @@ ul {
 
 #indexBody {
     background-image: url('../photos/background.webp');
+}
+
+#chuckBody {
+    background-image: url('../photos/background.webp');
+}
+
+#subscribeDiv {
+    background-color: #dac194;
 }
