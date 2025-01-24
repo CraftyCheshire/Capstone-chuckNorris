@@ -1,78 +1,22 @@
+import React from "react";
 import "./App.css";
+import CustomNavbar from "./navbar.js";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-router-dom";
 
 const Chuckinator = () => {
   return (
     <div id="indexBody">
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand" href="index.html">
-            The Chuckinator
-          </a>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="index.html"
-                >
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="chuck.html">
-                  Jokes
-                </a>
-              </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Abouts
-                </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="aboutChuck.html">
-                      About the Chuckster
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="aboutMe.html">
-                      About the Author
-                    </a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+      <section className="navbar">
+        <CustomNavbar />
+      </section>
 
       <div className="hero-image">
         <div className="hero-text">
           <h1>Chuck Norris</h1>
           <p>American Hero</p>
-          <button
-            type="button"
-            className="btn btn-warning"
-            onClick={() => (window.location.href = "chuck.html")}
-          >
-            Let's play
+          <button type="button" className="btn btn-warning">
+            <Link to="/chuck">Let's play</Link>
           </button>
         </div>
       </div>
@@ -94,12 +38,12 @@ const Chuckinator = () => {
 
         <form className="container">
           <div id="infoBox" className="container">
-            <label>First Name:</label>
+            <label htmlFor="firstName">First Name:</label>
             <br />
             <input type="text" id="firstName" name="firstName" />
             <br />
 
-            <label>Last Name:</label>
+            <label htmlFor="lastName">Last Name:</label>
             <br />
             <input type="text" id="lastName" name="lastName" />
             <br />
@@ -109,14 +53,21 @@ const Chuckinator = () => {
             <input type="email" id="email" name="email" />
             <br />
           </div>
-          <button type="button" className="btn btn-success" id="subscribeBtn">
+          <button
+            type="button"
+            className="btn btn-success"
+            id="subscribeBtn"
+            onClick={() => alert("Subscribed!")}
+          >
             Subscribe!
           </button>
         </form>
         <p id="subscribe"></p>
       </section>
 
-      <footer>Created by: Vann DaMann 2025</footer>
+      <footer>
+        <p>Created by: Vann DaMann 2025</p>
+      </footer>
     </div>
   );
 };
