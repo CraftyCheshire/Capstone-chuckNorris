@@ -1,0 +1,18 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
+import CustomNavbar from './navbar';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <CustomNavbar />
+    <App />
+  </React.StrictMode>
+);
+
+const greet = () => console.log("Hello, Babel!");
+greet();
